@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/realfevr/static/css/main.00b1c2c9.css",
-    "main.js": "/realfevr/static/js/main.b78177fd.js",
+    "main.js": "/realfevr/static/js/main.5c5fab00.js",
     "static/media/header-bck.png": "/realfevr/static/media/header-bck.133bbfd4d8a06b552054.png",
     "static/media/user-avatar.png": "/realfevr/static/media/user-avatar.2de1addf6c59d4836715.png",
     "static/media/collectible-legendary.png": "/realfevr/static/media/collectible-legendary.2be3076b9728a24a903a.png",
@@ -31,10 +31,10 @@
     "static/media/youtube-ico.svg": "/realfevr/static/media/youtube-ico.6cd89eca49972838bb2f10c93b504e7f.svg",
     "static/media/facebook-ico.svg": "/realfevr/static/media/facebook-ico.7f9dda4b431c00102f35ff1965d121a7.svg",
     "main.00b1c2c9.css.map": "/realfevr/static/css/main.00b1c2c9.css.map",
-    "main.b78177fd.js.map": "/realfevr/static/js/main.b78177fd.js.map"
+    "main.5c5fab00.js.map": "/realfevr/static/js/main.5c5fab00.js.map"
   },
   "entrypoints": [
     "static/css/main.00b1c2c9.css",
-    "static/js/main.b78177fd.js"
+    "static/js/main.5c5fab00.js"
   ]
 }

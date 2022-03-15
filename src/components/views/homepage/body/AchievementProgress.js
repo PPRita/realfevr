@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import NanoFlex from "../../../global/NanoFlex.js";
 import Type from "../../../global/Typography.js";
@@ -204,15 +204,15 @@ const AchievementProgress = (props) => {
         </NanoFlex>
         <NanoFlex className="achievementType-wrapper" flexDirection="column" justifyContent="flex-start" alignItems="flex-start">
           <NanoFlex className="achievement-title" justifyContent="flex-start" alignItems="flex-end">
-            <Type.h2>
+            <Type.H2>
               <b>{props.title}</b>
-            </Type.h2>
-            <Type.h6>
+            </Type.H2>
+            <Type.H6>
               <b>{props.level}</b>
-            </Type.h6>
+            </Type.H6>
           </NanoFlex>
           <NanoFlex className="achievement-legend" justifyContent="flex-start" alignItems="flex-start">
-            <Type.h6>{props.legend}</Type.h6>
+            <Type.H6>{props.legend}</Type.H6>
           </NanoFlex>
         </NanoFlex>
       </NanoFlex>
@@ -220,28 +220,28 @@ const AchievementProgress = (props) => {
         <NanoFlex className="progressBar" justifyContent="flex-start">
           <NanoFlex className={`progress ${props.width === "100%" ? "completed" : ""} ${props.clickable ? "clickable" : ""}`} width={props.width}></NanoFlex>
           <NanoFlex className="progressValue">
-            <Type.h6>
+            <Type.H6>
               <b>{props.progressValue}</b>
-            </Type.h6>
+            </Type.H6>
           </NanoFlex>
         </NanoFlex>
       </NanoFlex>
       <NanoFlex className="info-wrapper">
         {props.xp && (
           <NanoFlex className="xp-wrapper">
-            <Type.h2>
+            <Type.H2>
               <b>{props.xpValue}</b>
-            </Type.h2>
-            <Type.h5>
+            </Type.H2>
+            <Type.H5>
               <b>XP</b>
-            </Type.h5>
+            </Type.H5>
           </NanoFlex>
         )}
         {!props.xp && (
           <NanoFlex className="text-wrapper">
-            <Type.h5>
+            <Type.H5>
               <b>{props.text}</b>
-            </Type.h5>
+            </Type.H5>
           </NanoFlex>
         )}
       </NanoFlex>

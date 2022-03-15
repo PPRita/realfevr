@@ -233,15 +233,15 @@ export class UserProfile extends Component {
               <img src={UserAvatar} alt="user avatar" />
             </NanoFlex>
             <NanoFlex className="level-container">
-              <Type.h5>
+              <Type.H5>
                 <b>Level 42</b>
-              </Type.h5>
+              </Type.H5>
             </NanoFlex>
           </NanoFlex>
           <NanoFlex className="userName-container">
-            <Type.h2>
+            <Type.H2>
               <b>@CryptoWizard</b>
-            </Type.h2>
+            </Type.H2>
           </NanoFlex>
           <NanoFlex className="secondary-info-container">
             <Type.p>
@@ -257,9 +257,9 @@ export class UserProfile extends Component {
                 <img src={FevrTokenLogo} alt="fervtoken" />
               </NanoFlex>
               <NanoFlex className="value-info">
-                <Type.h6>
+                <Type.H6>
                   <b>127,812,000</b> OWNED
-                </Type.h6>
+                </Type.H6>
               </NanoFlex>
             </NanoFlex>
 
@@ -268,14 +268,14 @@ export class UserProfile extends Component {
                 <img src={FevrTokenLogo} alt="fervtoken" />
               </NanoFlex>
               <NanoFlex className="value-info">
-                <Type.h6>
+                <Type.H6>
                   <b>127,812,000</b> STAKED
-                </Type.h6>
+                </Type.H6>
               </NanoFlex>
             </NanoFlex>
           </NanoFlex>
           <NanoFlex className="joinedDate-wrapper">
-            <Type.h6>Joined October, 2021</Type.h6>
+            <Type.H6>Joined October, 2021</Type.H6>
           </NanoFlex>
           <NanoFlex className="user-badgets-list">
             <NanoFlex className="badget-item">
@@ -291,40 +291,40 @@ export class UserProfile extends Component {
           <NanoFlex className="user-rank-container">
             <NanoFlex className="rank-block" flexDirection="column">
               <NanoFlex className="number-wrapper">
-                <Type.h4>
+                <Type.H4>
                   <b>
                     133 / 27500 <em>XP</em>
                   </b>
-                </Type.h4>
+                </Type.H4>
               </NanoFlex>
               <NanoFlex className="legend-wrapper" alignItems="flex-start">
-                <Type.h6>
+                <Type.H6>
                   <b>NEXT LEVEL</b>
-                </Type.h6>
+                </Type.H6>
               </NanoFlex>
             </NanoFlex>
             <NanoFlex className="rank-block" flexDirection="column">
               <NanoFlex className="number-wrapper">
-                <Type.h4>
+                <Type.H4>
                   <b>2346</b>
-                </Type.h4>
+                </Type.H4>
               </NanoFlex>
               <NanoFlex className="legend-wrapper" alignItems="flex-start">
-                <Type.h6>
+                <Type.H6>
                   <b>moments owned</b>
-                </Type.h6>
+                </Type.H6>
               </NanoFlex>
             </NanoFlex>
             <NanoFlex className="rank-block" flexDirection="column">
               <NanoFlex className="number-wrapper">
-                <Type.h4>
+                <Type.H4>
                   <b>Top 1%</b>
-                </Type.h4>
+                </Type.H4>
               </NanoFlex>
               <NanoFlex className="legend-wrapper" alignItems="flex-start">
-                <Type.h6>
+                <Type.H6>
                   <b>RANK</b>
-                </Type.h6>
+                </Type.H6>
               </NanoFlex>
             </NanoFlex>
           </NanoFlex>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const h1 = styled.h1`
+const H1 = styled.h1`
   color: ${(props) => props.theme.color.main.font};
   font-size: 56px;
   line-height: 62px;
@@ -13,7 +13,7 @@ const h1 = styled.h1`
   }
 `;
 
-const h2 = styled.h2`
+const H2 = styled.h2`
   color: ${(props) => props.theme.color.main.font};
   font-size: 36px;
   b,
@@ -23,7 +23,7 @@ const h2 = styled.h2`
   }
 `;
 
-const h3 = styled.h3`
+const H3 = styled.h3`
   color: ${(props) => props.theme.color.main.font};
   font-size: 26px;
   b,
@@ -32,7 +32,7 @@ const h3 = styled.h3`
   }
 `;
 
-const h4 = styled.h4`
+const H4 = styled.h4`
   color: ${(props) => props.theme.color.main.font};
   font-size: 20px;
   b,
@@ -41,7 +41,7 @@ const h4 = styled.h4`
   }
 `;
 
-const h5 = styled.h5`
+const H5 = styled.h5`
   color: ${(props) => props.theme.color.main.font};
   font-size: 18px;
   letter-spacing: 0.2em;
@@ -51,7 +51,7 @@ const h5 = styled.h5`
   }
 `;
 
-const h6 = styled.h6`
+const H6 = styled.h6`
   color: ${(props) => props.theme.color.main.font};
   font-size: 12px;
   letter-spacing: 0.2em;
@@ -82,12 +82,12 @@ const p = styled.p`
 `;
 
 const Type = {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
   p,
 };
 

@@ -38,7 +38,7 @@ export class PoweredBy extends Component {
               <img src={BinanceLogo} alt="Binance Smart Chain" />
           </NanoFlex>
           <NanoFlex className="info-content">
-              <Type.h5>RealFevr is powered by Binance Smart Chain</Type.h5>
+              <Type.H5>RealFevr is powered by Binance Smart Chain</Type.H5>
           </NanoFlex>
       </StyledPoweredBy>
     );

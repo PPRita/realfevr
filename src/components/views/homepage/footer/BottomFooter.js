@@ -68,7 +68,7 @@ export class BottomFooter extends Component {
             </NanoFlex>
           </NanoFlex>
           <NanoFlex className="allrights-content" justifyContent="flex-end">
-              <Type.h6>© 2022 REALFEVR · ALL RIGHTS RESERVED</Type.h6>
+              <Type.H6>© 2022 REALFEVR · ALL RIGHTS RESERVED</Type.H6>
           </NanoFlex>
         </NanoFlex>
       </StyledBottomFooter>

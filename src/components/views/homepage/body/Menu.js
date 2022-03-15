@@ -59,29 +59,29 @@ export class Menu extends Component {
     return (
       <StyledMenu>
         <Link to="/collection" className="link" activeclassname="current">
-          <Type.h5>
+          <Type.H5>
             <b>Collection</b>
-          </Type.h5>
+          </Type.H5>
         </Link>
         <Link to="/transactions" className="link" activeclassname="current">
-          <Type.h5>
+          <Type.H5>
             <b>Transaction</b>
-          </Type.h5>
+          </Type.H5>
         </Link>
         <Link to="/" className="link current" activeclassname="current">
-          <Type.h5>
+          <Type.H5>
             <b>Achievements</b>
-          </Type.h5>
+          </Type.H5>
         </Link>
         <Link to="/rewards" className="link" activeclassname="current">
-          <Type.h5>
+          <Type.H5>
             <b>Rewards</b>
-          </Type.h5>
+          </Type.H5>
         </Link>
         <Link to="/notifications" className="link" activeclassname="current">
-          <Type.h5>
+          <Type.H5>
             <b>Notifications</b>
-          </Type.h5>
+          </Type.H5>
         </Link>
       </StyledMenu>
     );

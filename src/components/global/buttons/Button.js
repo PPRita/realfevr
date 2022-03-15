@@ -1,10 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import NanoFlex from "..//NanoFlex.js";
 import Type from "../Typography";
-
-//Images
-import { ReactComponent as FootballIco } from "../../../images/icons/football-ico.svg";
 
 const StyleButton = styled(NanoFlex)`
   width: auto;
@@ -36,9 +33,9 @@ const Button = (props) => {
   return (
     <StyleButton green={props.green} disabled={props.disabled}>
       <NanoFlex className="button-wrapper">
-        <Type.h6>
+        <Type.H6>
           <b>{props.label}</b>
-        </Type.h6>
+        </Type.H6>
       </NanoFlex>
     </StyleButton>
   );

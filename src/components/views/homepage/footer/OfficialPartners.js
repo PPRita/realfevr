@@ -52,7 +52,7 @@ export class OfficialPartners extends Component {
     return (
       <StyledOfficialPartners flexDirection="column">
           <NanoFlex className="section-title">
-              <Type.h5><b>Official Partners</b></Type.h5>
+              <Type.H5><b>Official Partners</b></Type.H5>
           </NanoFlex>
           <NanoFlex className="partners-list"flexWrap="wrap">
 {/* Soccerex */}
